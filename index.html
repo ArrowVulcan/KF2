@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="description" content="A Killing Floor 2 Perk Skill Simulator.">
+	<title>Killing Floor 2 Perk Skills</title>
+	<meta name="keywords" content="KF2, Perk, Skill, Talents, Simulator, Tree, Skill tree, Berserker, Commando, Support, Medic, Demolition, Firebug, Gunslinger, Sharpshooter, SWAT, Survivalist">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+	
+	<div class="bg-frame">
+	
+		<span class="bg-left"></span>
+		<span class="bg-mid"></span>
+		<span class="bg-right"></span>
+		<span class="img-kf2"></span>
+		
+		<span class="perk-frame perk-berserker">
+			<span class="icon berserker"></span>
+			<span class="name n_berserker"></span>
+		</span>
+		
+		<span class="perk-frame perk-commando">
+			<span class="icon commando"></span>
+			<span class="name n_commando"></span>
+		</span>
+		
+		<span class="perk-frame perk-support">
+			<span class="icon support"></span>
+			<span class="name n_support"></span>
+		</span>
+		
+		<span class="perk-frame perk-medic">
+			<span class="icon medic"></span>
+			<span class="name n_medic"></span>
+		</span>
+		
+		<span class="perk-frame perk-demolition">
+			<span class="icon demolition"></span>
+			<span class="name n_demolition"></span>
+		</span>
+		
+		<span class="perk-frame perk-firebug">
+			<span class="icon firebug"></span>
+			<span class="name n_firebug"></span>
+		</span>
+		
+		<span class="perk-frame perk-gunslinger">
+			<span class="icon gunslinger"></span>
+			<span class="name n_gunslinger"></span>
+		</span>
+		
+		<span class="perk-frame perk-sharpshooter">
+			<span class="icon sharpshooter"></span>
+			<span class="name n_sharpshooter"></span>
+		</span>
+		
+		<span class="perk-frame perk-swat">
+			<span class="icon swat"></span>
+			<span class="name n_swat"></span>
+		</span>
+		
+		<span class="perk-frame perk-survivalist">
+			<span class="icon survivalist"></span>
+			<span class="name n_survivalist"></span>
+		</span>
+		
+	</div>
+	
+	<div class="bg-frame2 hide">
+	
+		<span class="bg-big-left"></span>
+		<span class="bg-big-mid"></span>
+		<span class="bg-big-right"></span>
+		
+		<span class="perk-skill row1 s1">
+			<span class="skill-type"></span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row1 second s2">
+			<span class="skill-level">5</span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row2 s3">
+			<span class="skill-type"></span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row2 second s4">
+			<span class="skill-level">10</span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row3 s5">
+			<span class="skill-type"></span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row3 second s6">
+			<span class="skill-level">15</span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row4 s7">
+			<span class="skill-type"></span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row4 second s8">
+			<span class="skill-level">20</span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row5 s9">
+			<span class="skill-type"></span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="perk-skill row5 second s10">
+			<span class="skill-level">25</span>
+			<span class="skill-name"></span>
+			<span class="skill-icon"></span>
+			<span class="skill-desc"></span>
+		</span>
+		
+		<span class="link-frame hide">
+			<span id="talent-url"></span>
+		</span>
+		
+	</div>
+	
+	<div class="perk_info hide">
+		<span id="perk_info"></span>
+	</div>
+	
+	<script type="text/javascript" src="scripts/killing_floor_2.js"></script>
+	<script type="text/javascript" src="scripts/perks.js"></script>
+
+</body>
+
+</html>

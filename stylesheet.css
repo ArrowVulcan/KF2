@@ -1,0 +1,402 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;	
+}
+
+body{
+	width: 0px;
+	height: 0px;
+	background: #050303 url("images/bg.jpg") 0px 0px no-repeat;
+	background-size: cover;
+}
+
+.bg-frame{
+	height: 0px;
+}
+
+.bg-frame2 {
+	height: 0px;
+	position: relative;
+	left: 120px;
+	-webkit-transition: opacity 100ms linear; /* Safari */
+	transition: opacity 100ms linear;
+}
+
+.show{
+	opacity: 1;
+}
+
+.hide{
+	opacity: 0;
+}
+
+.bg-frame .img-kf2{
+	width: 377px;
+	height: 90px;
+	position: absolute;
+	top: 64px;
+	left: 205px; /* old=135px */
+	background-image: url("images/kf2_small.png");
+}
+
+.bg-frame2 .link-frame{
+	width: 496px;
+	height: 50px;
+	position: absolute;
+	top: 730px;
+	left: 650px;
+	background-image: url("images/link_frame.png");
+}
+
+.bg-frame2 #talent-url{
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Calibri;
+	position: absolute;
+	top: 17px;
+	left: 59px;
+	width: 400px;
+	
+    -webkit-touch-callout: all;
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
+.bg-frame .perk-frame{
+	width: 45px;
+	height: 155px;
+	position: absolute;
+	top: 180px;
+	left: 80px;
+	background-image: url("images/perk_frame_gray.png");
+}
+
+.bg-frame .icon{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 7px;
+	left: 2px;
+}
+
+.bg-frame .berserker{
+	background: url("images/icon_sheet.png") 0 0 !important;
+}
+
+.bg-frame .commando{
+	background: url("images/icon_sheet.png") -40px 0 !important;
+}
+
+.bg-frame .support{
+	background: url("images/icon_sheet.png") -80px 0 !important;
+}
+	
+.bg-frame .medic{
+	background: url("images/icon_sheet.png") 0 -40px !important;
+}
+
+.bg-frame .demolition{
+	background: url("images/icon_sheet.png") -40px -40px !important;
+}
+
+.bg-frame .firebug{
+	background: url("images/icon_sheet.png") -80px -40px !important;
+}
+
+.bg-frame .gunslinger{
+	background: url("images/icon_sheet.png") 0 -80px !important;
+}
+
+.bg-frame .sharpshooter{
+	background: url("images/icon_sheet.png") -80px -80px !important;
+}
+
+.bg-frame .swat{
+	background: url("images/icon_sheet.png") 0 -120px !important;
+}
+
+.bg-frame .survivalist{
+	background: url("images/icon_sheet.png") -40px -80px !important;
+}
+
+.bg-frame .name{
+	width: 40px;
+	height: 120px;
+	position: absolute;
+	top: 33px;
+	left: 0px;
+}
+
+.bg-frame .n_berserker{
+	background: url("images/name_sheet.png") 0 0;
+}
+
+.bg-frame .n_commando{
+	background: url("images/name_sheet.png") -30px 0;
+}
+
+.bg-frame .n_support{
+	background: url("images/name_sheet.png") -60px 0;
+}
+
+.bg-frame .n_medic{
+	background: url("images/name_sheet.png") -90px 0;
+}
+
+.bg-frame .n_demolition{
+	background: url("images/name_sheet.png") -120px 0;
+}
+
+.bg-frame .n_firebug{
+	background: url("images/name_sheet.png") -150px 0;
+}
+
+.bg-frame .n_gunslinger{
+	background: url("images/name_sheet.png") -180px 0;
+}
+
+.bg-frame .n_sharpshooter{
+	background: url("images/name_sheet.png") -240px 0;
+}
+
+.bg-frame .n_swat{
+	background: url("images/name_sheet.png") -270px 0;
+}
+
+.bg-frame .n_survivalist{
+	background: url("images/name_sheet.png") -210px 0;
+}
+
+.bg-frame .hover{
+	background-image: url("images/perk_frame.png") !important;
+	cursor: pointer;
+}
+
+.perk_info{
+	background-color: #141414;
+	min-width: 150px;
+	min-height: 50px;
+	position: absolute;
+	top: 400px;
+	left: 200px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	pointer-events: none;
+	padding: 10px;
+}
+
+.i_big{
+	color: #fbd2bf;
+	font-size: 14px;
+	font-family: Calibri;
+	position: relative;
+}
+
+.i_small{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Calibri;
+	position: relative;
+}
+
+.bg-frame .active{
+	background-image: url("images/perk_frame.png") !important;
+}
+
+.bg-frame .perk-commando{
+	left: 130px;
+}
+
+.bg-frame .perk-support{
+	left: 180px;
+}
+
+.bg-frame .perk-medic{
+	left: 230px;
+}
+
+.bg-frame .perk-demolition{
+	left: 280px;
+}
+
+.bg-frame .perk-firebug{
+	left: 330px;
+}
+
+.bg-frame .perk-gunslinger{
+	left: 380px;
+}
+
+.bg-frame .perk-sharpshooter{
+	left: 430px;
+}
+
+.bg-frame .perk-swat{
+	left: 480px;
+}
+
+.bg-frame .perk-survivalist{
+	left: 530px;
+}
+
+.bg-frame .bg-left{
+	width: 114px;
+	height: 416px;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	background-image: url("images/left_frame.png");
+}
+
+.bg-frame .bg-mid{
+	width: 428px; /* old=288px */
+	height: 416px;
+	position: absolute;
+	top: 0px;
+	left: 144px;
+	background-image: url("images/center_frame.png");
+}
+
+.bg-frame .bg-right{
+	width: 114px;
+	height: 416px;
+	position: absolute;
+	top: 0px;
+	left: 572px; /* old=432px */
+	background-image: url("images/right_frame.png");
+}
+
+.bg-frame2 .bg-big-left{
+	width: 24px;
+	height: 700px;
+	position: absolute;
+	top: 39px;
+	left: 570px; /* old=570 */
+	background-image: url("images/big_frame_left.png");
+}
+
+.bg-frame2 .bg-big-mid{
+	width: 610px;
+	height: 700px;
+	position: absolute;
+	top: 39px;
+	left: 594px; /* old=594 */
+	background-image: url("images/big_frame_center.png");
+}
+
+.bg-frame2 .bg-big-right{
+	width: 23px;
+	height: 700px;
+	position: absolute;
+	top: 39px;
+	left: 1204px; /* old=1194 */
+	background-image: url("images/big_frame_right.png");
+}
+
+.bg-frame2 .perk-skill{
+	width: 305px;
+	height: 105px;
+	position: absolute;
+	top: 85px;
+	left: 585px;
+	background-color: #202020;
+	border-radius: 6px;
+	-webkit-transition: background-color 150ms linear; /* Safari */
+	transition: background-color 150ms linear;
+}
+
+.bg-frame2 .second{
+	left: 900px;
+}
+
+.bg-frame2 .active{
+	background-color: #930606;
+}
+
+.bg-frame2 .hover{
+	background-color: #a65200;
+	cursor: pointer;
+}
+
+.bg-frame2 .row2{
+	top: 215px;
+}
+
+.bg-frame2 .row3{
+	top: 345px;
+}
+
+.bg-frame2 .row4{
+	top: 475px;
+}
+
+.bg-frame2 .row5{
+	top: 605px;
+}
+
+.bg-frame2 .perk-skill .skill-name{
+	color: #fffefe;
+	font-size: 18px;
+	font-family: Calibri;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.bg-frame2 .perk-skill .skill-icon{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+
+.bg-frame2 .perk-skill .skill-desc{
+	color: #fffefe;
+	font-size: 12px;
+	font-family: Calibri;
+	position: absolute;
+	top: 38px;
+	left: 64px;
+	width: 235px;
+}
+
+.bg-frame2 .skill-type{
+	color: #fffefe;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Calibri;
+	position: absolute;
+	top: -25px;
+	left: 2px;
+	width: 250px;
+}
+
+.bg-frame2 .skill-level{
+	text-align: right;
+	color: #fffefe;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Calibri;
+	position: absolute;
+	top: -25px;
+	left: 279px;
+	width: 25px;
+}
+
+.perk-skill {
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+}
